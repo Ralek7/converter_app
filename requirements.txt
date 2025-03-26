@@ -1,0 +1,5 @@
+requests>=2.28
+tkinter>=0.1
+cryptography>=38.0
+pyinstaller>=5.0
+python-dotenv>=0.21
