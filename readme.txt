@@ -1,1 +1,2 @@
+Para covertir en exe, ejecutar:
 pyinstaller --onefile --clean --noupx --runtime-tmpdir=. --name DICAI --add-data "secrets/secrets.ini;secrets" --add-data "core/*.py;core" --add-data "output/jira_issues;output/jira_issues" --hidden-import=configparser --hidden-import=requests --hidden-import=urllib3 --hidden-import=tkinter --hidden-import=logging --hidden-import=pathlib --paths=".core" main.py
