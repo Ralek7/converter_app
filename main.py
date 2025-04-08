@@ -1,3 +1,9 @@
+"""
+Copyright (c) 2025 Alejandro Ramírez  
+Bajo la Licencia de Autor Restringida (LAR) v1.0  
+Más detalles en LICENSE
+""" 
+ 
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 from core.jiraExtractor import JiraExtractor
