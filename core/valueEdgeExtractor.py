@@ -25,7 +25,7 @@ class ValueEdgeExtractor:
         if getattr(sys, 'frozen', False):
             base_dir = sys._MEIPASS
         else:
-            base_dir = os.path.dirname(os.path.abspath(__file__))
+            base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         
         # Ruta absoluta del archivo de configuración
         config_path = os.path.join(base_dir, 'secrets', 'secrets.ini')
